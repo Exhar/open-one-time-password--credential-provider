@@ -103,7 +103,7 @@ static const CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR s_rgCredProvFieldDescriptors[]
 	{ SFI_OTP_SMALL_TEXT,		CPFT_SMALL_TEXT,		L"SmallText" },
 	{ SFI_OTP_USERNAME,			CPFT_EDIT_TEXT,			L"Username" },
 	{ SFI_OTP_LDAP_PASS,		CPFT_PASSWORD_TEXT,		L"Password" },
-	{ SFI_OTP_PASS,				CPFT_EDIT_TEXT,			L"One-Time Password" },
+	{ SFI_OTP_PASS,				CPFT_PASSWORD_TEXT,			L"One-Time Password" },
 	{ SFI_OTP_CHALLENGE,		CPFT_EDIT_TEXT,			L"" },
 	{ SFI_OTP_SUBMIT_BUTTON,	CPFT_SUBMIT_BUTTON,		L"Submit" },
 };
